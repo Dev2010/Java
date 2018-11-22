@@ -23,9 +23,7 @@ public class Frog {
 
 	public Frog(int x, int y) {
 		try { // rip idk what this does
-
-			image = ImageIO.read(new File("C:\\Users\\10010422\\Desktop\\forgotFlash\\frogger\\thisBetterBeIt.png"));
-
+			image = ImageIO.read(new File("src/thisBetterBeIt.png"));
 		} catch (Exception e) {
 		}
 		xPos = x;
@@ -118,7 +116,7 @@ public class Frog {
 					try { // rip idk what this does
 
 						image = ImageIO.read(
-								new File("C:\\Users\\10010422\\Desktop\\forgotFlash\\frogger\\thisBetterBeItD.png"));
+								new File("src/thisBetterBeItD.png"));
 
 					} catch (Exception ex) {
 					}
@@ -128,7 +126,7 @@ public class Frog {
 					try { // rip idk what this does
 
 						image = ImageIO.read(
-								new File("C:\\Users\\10010422\\Desktop\\forgotFlash\\frogger\\thisBetterBeItR.png"));
+								new File("src/thisBetterBeItR.png"));
 
 					} catch (Exception ex) {
 					}
@@ -138,7 +136,7 @@ public class Frog {
 					try { // rip idk what this does
 
 						image = ImageIO.read(
-								new File("C:\\Users\\10010422\\Desktop\\forgotFlash\\frogger\\thisBetterBeIt.png"));
+								new File("src/thisBetterBeIt.png"));
 
 					} catch (Exception ex) {
 					}
@@ -148,7 +146,7 @@ public class Frog {
 					try { // rip idk what this does
 
 						image = ImageIO.read(
-								new File("C:\\Users\\10010422\\Desktop\\forgotFlash\\frogger\\thisBetterBeItL.png"));
+								new File("src/thisBetterBeItL.png"));
 
 					} catch (Exception ex) {
 					}

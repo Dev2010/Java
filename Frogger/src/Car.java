@@ -20,9 +20,9 @@ public class Car extends Frog {
 		try { // rip idk what this does
 
 			if (direction > 0) {
-				image = ImageIO.read(new File("C:\\Users\\10010422\\Desktop\\forgotFlash\\frogger\\carro.gif"));
+				image = ImageIO.read(new File("src/carro.gif"));
 			} else
-				image = ImageIO.read(new File("C:\\Users\\10010422\\Desktop\\forgotFlash\\frogger\\carroflip.gif"));
+				image = ImageIO.read(new File("src/carroflip.gif"));
 
 		} catch (Exception e) {
 		}

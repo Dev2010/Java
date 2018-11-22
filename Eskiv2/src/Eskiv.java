@@ -36,7 +36,7 @@ public class Eskiv extends JPanel implements KeyListener {
 
         try { //rip idk what this does
 
-            image = ImageIO.read(new File("C:\\Demo\\harrypotter.jpg"));
+            image = ImageIO.read(new File("src/harrypotter.jpg"));
 
         } catch (Exception e) {
         }
