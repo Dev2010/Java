@@ -1,15 +1,11 @@
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import javax.imageio.ImageIO;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.RenderingHints;
 import java.awt.event.KeyEvent;
 import java.awt.Rectangle;
 import java.awt.Point;
-import java.awt.Color;
 
 public class Frog {
 
