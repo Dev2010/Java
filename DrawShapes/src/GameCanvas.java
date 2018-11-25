@@ -5,6 +5,8 @@ import javax.swing.JPanel;
 
 public class GameCanvas extends JPanel {
 
+	Ball bouncingBall = new Ball();
+	
 	public GameCanvas()
 	{
 	}
@@ -18,7 +20,7 @@ public class GameCanvas extends JPanel {
 				
 				repaint(); // this will make Java runtime invoke paintComponent
 				
-				Thread.sleep(4000);
+				Thread.sleep(40);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 				break;
@@ -30,7 +32,6 @@ public class GameCanvas extends JPanel {
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		// draw the rectangle here
-		Ball ball = new Ball();
-		ball.Draw(g);
+		bouncingBall.Draw(g);
 	}
 }
