@@ -19,7 +19,8 @@ public class Frog {
 
 	public Frog(int x, int y) {
 		try { // rip idk what this does
-			image = ImageIO.read(new File("src/thisBetterBeIt.png"));
+			//image = ImageIO.read(new File("thisBetterBeIt.png"));
+			image = ImageIO.read(getClass().getResource("thisBetterBeIt.png"));
 		} catch (Exception e) {
 		}
 		xPos = x;
@@ -111,38 +112,39 @@ public class Frog {
 					down = 47;
 					try { // rip idk what this does
 
-						image = ImageIO.read(
-								new File("src/thisBetterBeItD.png"));
+						//image = ImageIO.read(new File("thisBetterBeItD.png"));
+						image = ImageIO.read(getClass().getResource("thisBetterBeItD.png"));
 
-					} catch (Exception ex) {
+					} 
+					catch (Exception ex) {
 					}
 				}
 				if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
 					right = 47;
 					try { // rip idk what this does
 
-						image = ImageIO.read(
-								new File("src/thisBetterBeItR.png"));
+						//image = ImageIO.read(new File("thisBetterBeItR.png"));
+						image = ImageIO.read(getClass().getResource("thisBetterBeItR.png"));
 
-					} catch (Exception ex) {
+					} 
+					catch (Exception ex) {
 					}
 				}
 				if (e.getKeyCode() == KeyEvent.VK_UP) {
 					up = -47;
 					try { // rip idk what this does
-
-						image = ImageIO.read(
-								new File("src/thisBetterBeIt.png"));
-
-					} catch (Exception ex) {
+						//image = ImageIO.read(new File("thisBetterBeIt.png"));
+						image = ImageIO.read(getClass().getResource("thisBetterBeIt.png"));
+					} 
+					catch (Exception ex) {
 					}
 				}
 				if (e.getKeyCode() == KeyEvent.VK_LEFT) {
 					left = -47;
 					try { // rip idk what this does
 
-						image = ImageIO.read(
-								new File("src/thisBetterBeItL.png"));
+						//image = ImageIO.read(new File("thisBetterBeItL.png"));
+						image = ImageIO.read(getClass().getResource("thisBetterBeItL.png"));
 
 					} catch (Exception ex) {
 					}

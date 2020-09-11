@@ -36,7 +36,8 @@ public class Frogger extends JPanel implements KeyListener {
 		try { // rip idk what this does
 
 			// image = ImageIO.read(new File("C:\\Demo\\harrypotter.jpg"));
-			image = ImageIO.read(new File("src/bkilogram.png"));
+			//image = ImageIO.read(new File("bkilogram.png"));
+			image = ImageIO.read(getClass().getResource("bkilogram.png"));
 
 		} catch (Exception e) {
 		}
